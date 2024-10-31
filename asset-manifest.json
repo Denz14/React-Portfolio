@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.279411c6.css",
+    "main.js": "/React-Portfolio/static/js/main.439065a6.js",
+    "static/js/453.acca0757.chunk.js": "/React-Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/Formal-Business-Headshot.jpg": "/React-Portfolio/static/media/Formal-Business-Headshot.cf624410c46867ce21a9.jpg",
+    "static/media/Passion-in-Life.jpg": "/React-Portfolio/static/media/Passion-in-Life.e93437ff5e7dcc0f9c8d.jpg",
+    "static/media/Aesthetic Dramatic shot.jpg": "/React-Portfolio/static/media/Aesthetic Dramatic shot.db9f50b94f600fc868d2.jpg",
+    "static/media/pic.jpg": "/React-Portfolio/static/media/pic.10b8a39ed5529102a466.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.279411c6.css.map": "/React-Portfolio/static/css/main.279411c6.css.map",
+    "main.439065a6.js.map": "/React-Portfolio/static/js/main.439065a6.js.map",
+    "453.acca0757.chunk.js.map": "/React-Portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.279411c6.css",
+    "static/js/main.439065a6.js"
+  ]
+}
