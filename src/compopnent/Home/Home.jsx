@@ -53,21 +53,21 @@ const Home = () => {
     <div class="carousel-item active">
       <img src={c} class="d-block  " alt="..." style={{width:'26rem', height:'30rem',margin:'auto'}}/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
+        <h5>When Halos come down</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={B} class="d-block " alt="..."style={{width:'26rem', height:'30rem',margin:'auto'}}/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide</h5>
+        <h5>Portfolio Picture</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={D} class="d-block" alt="..." style={{width:'26rem', height:'30rem',margin:'auto'}}/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
+        <h5>Asthetic Shot</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>

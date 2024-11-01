@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="home-box ">
         <div className="home-inner-box container">
           <p>
-            <p><H1>Denzil Dsouza</H1></p> 
+            <p><h1>Denzil Dsouza</h1></p> 
             
             <p>Ph: +353 899 88 0213</p> 
             <p>Email: denzdsouza14@gmail.com</p>
