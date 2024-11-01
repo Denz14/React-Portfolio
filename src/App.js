@@ -3,8 +3,8 @@ import './App.css';
 import About from './compopnent/About/About';
 import { BrowserRouter, Routes,Route} from 'react-router-dom';
 import Contact from './compopnent/Contact/Contact';
-import Portfolio from './compopnent/Portfolio';
-import Skills from './compopnent/Skills';
+import Portfolio from './compopnent/Portfolio/Portfolio';
+import Skills from './compopnent/Skills/Skills';
 import Home from './compopnent/Home/Home'
 // import {Routes} from 'react-dom'
 function App() {

@@ -1,19 +1,19 @@
-import React from "react";
-import "./Contact.css";
-const Contact = () => {
+import React from 'react'
+
+const Skills = () => {
   return (
     <>
       <div className="home-box ">
         <div className="home-inner-box container">
           <p>
-            <H1>Typography:</H1>
+            <h1>Typography:</h1>
             <p>
               Understanding fonts, typefaces, and how to pair them effectively.
               Knowledge of font sizes, line spacing, and kerning for readability
               and aesthetic appeal.
             </p>
             <p>
-              <H1>Color Theory:</H1>
+              <h1>Color Theory:</h1>
             </p>
             <p>
               Understanding the color wheel, color harmony, and the
@@ -21,7 +21,7 @@ const Contact = () => {
               that convey the desired mood and message.
             </p>
             <p>
-              <H1>Layout and Composition:</H1>
+              <h1>Layout and Composition:</h1>
             </p>
             <p>
               Knowledge of grid systems and how to structure a design for
@@ -29,7 +29,7 @@ const Contact = () => {
               to guide the viewer’s eye and enhance usability.
             </p>
             <p>
-              <H1>Software Proficiency:</H1>
+              <h1>Software Proficiency:</h1>
             </p>
             <p>
               Proficiency in graphic design software such as: Adobe Creative
@@ -37,7 +37,7 @@ const Contact = () => {
               design
             </p>
             <p>
-              <H1>Branding:</H1>
+              <h1>Branding:</h1>
             </p>
             <p>
               Understanding the principles of branding and how to create visual
@@ -45,7 +45,7 @@ const Contact = () => {
               communicate a company’s values and message.
             </p>
             <p>
-              <H1>Print Design:</H1>
+              <h1>Print Design:</h1>
             </p>
             <p>
               Understanding print production processes and specifications.
@@ -53,7 +53,7 @@ const Contact = () => {
               business cards.
             </p>
             <p>
-              <H1>Attention to Detail:</H1>
+              <h1>Attention to Detail:</h1>
             </p>
             <p>
               A keen eye for detail to ensure designs are polished and
@@ -61,7 +61,7 @@ const Contact = () => {
               design consistency.
             </p>
             <p>
-              <H1>Creative Thinking:</H1>
+              <h1>Creative Thinking:</h1>
             </p>
             <p></p>Ability to brainstorm and generate innovative ideas. Skills
             in problem-solving through design solutions.
@@ -69,7 +69,7 @@ const Contact = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Skills

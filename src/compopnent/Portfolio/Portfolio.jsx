@@ -1,6 +1,6 @@
 import React from 'react'
-import './Contact.css'
-const Contact = () => {
+
+const Portfolio = () => {
   return (
     <>
     <div className="home-box ">
@@ -16,4 +16,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Portfolio

@@ -3,6 +3,7 @@ import c from '../image/Passion-in-Life.jpg'
 import "./Home.css";
 import B from '../image/Formal-Business-Headshot.jpg'
 import D from '../image/Aesthetic Dramatic shot.jpg'
+import {Link} from 'react-router-dom'
 const Home = () => {
   return (
     <>
@@ -24,7 +25,7 @@ const Home = () => {
               I love creating solutions that are both functional and beautiful,
               and I’m always excited to take on new challenges. Feel free to
               explore my projects, learn more about my background, or{" "}
-              <a href="#contact">get in touch</a> if you'd like to connect.
+              <Link to="#contact">get in touch</Link> if you'd like to connect.
             </p>
             <p>
               Thank you for visiting, and I hope you enjoy browsing my work!
