@@ -14,8 +14,8 @@ const Home = () => {
             <span style={{ marginTop: "20px", display: "block" }}></span>
 
             <p>
-              Hi there! I'm Denzil Dsouza, a passionate and creative Interactive
-              Media Designer.
+              Hi there !!! I'm Denzil Dsouza, a passionate and creative
+              Interactive Media Designer.
               <p></p>
               `In my portfolio, you’ll find highlights of my most recent
               projects, showcasing my skills in Design, Photography, UI/UX
@@ -23,16 +23,15 @@ const Home = () => {
               attention to detail, and dedication to user-centered design.`
             </p>
             <p>
-              I love creating solutions that are both functional and
-              beautiful, and I’m always excited to take on new challenges. Feel
-              free to explore my projects, learn more about my background, or{" "}
+              I love creating solutions that are both functional and beautiful,
+              and I’m always excited to take on new challenges. Feel free to
+              explore my projects, learn more about my background, or{" "}
               <Link to="/contact">get in touch</Link> if you'd like to connect.
             </p>
             <p>
               Thank you for visiting, and I hope you enjoy browsing my work!
             </p>
             <span style={{ marginTop: "10px", display: "block" }}></span>
-
           </p>
           {/* <button type="button" class="btn btn-outline-primary">
             Photography Projects
