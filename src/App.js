@@ -6,6 +6,8 @@ import Contact from './compopnent/Contact/Contact';
 import Portfolio from './compopnent/Portfolio/Portfolio';
 import Skills from './compopnent/Skills/Skills';
 import Home from './compopnent/Home/Home'
+import  { Port } from './compopnent/Portfolio/Port'
+import { Photo } from './compopnent/Portfolio/Photo';
 // import {Routes} from 'react-dom'
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Route path="/contact" element={<Contact/>}></Route>
       <Route path="/portfolio" element={<Portfolio />}></Route>
       <Route path="/skills" element={<Skills/>}></Route>
+      <Route path="/portfolio/video" element={<Port/>}></Route>
+      <Route path="/portfolio/photos" element={<Photo/>}></Route>
     </Routes>
   </BrowserRouter>
 
