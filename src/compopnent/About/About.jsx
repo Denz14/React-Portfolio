@@ -4,14 +4,20 @@ import d from "../image/Denzil.jpg";
 const About = () => {
   return (
     <>
-      <div className="home-box ">
+      <div className="home-box">
         <div className="home-inner-box container">
           <p>
             <img
               src={d}
               className="d-block"
               alt="..."
-              style={{ marginBottom: "40px" }}
+              style={{
+                marginBottom: "60px",
+                maxWidth: "100%",
+                height: "auto", // Maintains aspect ratio
+                display: "block",
+                margin: "0 auto", // Centers the image horizontally
+              }}
             />
             As a seasoned graphic designer with over a decade of experience, I
             have mastered the art of transforming ideas into visually

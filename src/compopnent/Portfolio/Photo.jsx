@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import e from "../image/Passion-in-Life.jpg";
 import f from "../image/Formal-Business-Headshot.jpg";
 import g from "../image/Aesthetic Dramatic shot.jpg";
 
 export const Photo = () => {
+  // State for like counters
+  const [likes, setLikes] = useState({ card1: 0, card2: 0, card3: 0 });
+
+  // Function to handle like button clicks
+  const handleLike = (card) => {
+    setLikes((prevLikes) => ({
+      ...prevLikes,
+      [card]: prevLikes[card] + 1,
+    }));
+  };
+
   return (
     <>
       <div className="home-box">
@@ -37,20 +48,26 @@ export const Photo = () => {
                     suggests a passion for growth, always looking ahead or
                     reaching higher. The simplicity of the setting shows that my
                     focus isn’t on distractions but on the essence of what truly
-                    matters. This image feels like a moment of balance between
-                    the everyday world and something higher or more spiritual
-                    and divine. This simple yet powerful scene invites the
-                    viewer to imagine their own meaning behind it.
+                    matters.
                     <br />
-                    <span
-                      style={{ marginTop: "10px", display: "block" }}
-                    ></span>
                     <b>Technical Details:</b> <br />
                     <i>Lighting:</i> Capti Ring lighting at yellow mode to
                     enhance the halo effect. <br />
                     <i>Camera Settings:</i> ISO 200, f/4.0, 1/125s shutter
                     speed. <br />
                   </p>
+                  {/* Buttons */}
+                  <div className="d-flex justify-content-around">
+                    <button className="btn btn-like" onClick={() => handleLike("card1")}>
+                      <i className="bi bi-hand-thumbs-up"></i> Like ({likes.card1})
+                    </button>
+                    <button className="btn btn-comment">
+                      <i className="bi bi-chat-dots"></i> Comment
+                    </button>
+                    <button className="btn btn-share">
+                      <i className="bi bi-share"></i> Share
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -69,21 +86,25 @@ export const Photo = () => {
                   to life by my expression and pose. My warm smile conveys a
                   sense of positivity and openness. The relaxed posture adds an
                   air of authenticity, making the overall tone inviting and
-                  professional. The lighting highlights my features subtly,
-                  emphasizing my confident demeanor without overpowering the
-                  composition. Together, these elements project a blend of
-                  professionalism and friendliness, making this image suitable
-                  for settings where trust and relatability are essential, such
-                  as business profiles, creative portfolios, or personal
-                  branding.
+                  professional.
                   <br />
-                  <span style={{ marginTop: "10px", display: "block" }}></span>
                   <b>Technical Details:</b> <br />
-                  <i>Lighting:</i> Studio two point lighting with yellow glow to
+                  <i>Lighting:</i> Studio two-point lighting with a yellow glow to
                   reduce harsh shadows. <br />
-                  <i>Camera Settings:</i> ISO 100, f/5.6, 1/60s shutter speed.{" "}
-                  <br />
+                  <i>Camera Settings:</i> ISO 100, f/5.6, 1/60s shutter speed. <br />
                 </p>
+                {/* Buttons */}
+                <div className="d-flex justify-content-around">
+                  <button className="btn btn-like" onClick={() => handleLike("card2")}>
+                    <i className="bi bi-hand-thumbs-up"></i> Like ({likes.card2})
+                  </button>
+                  <button className="btn btn-comment">
+                    <i className="bi bi-chat-dots"></i> Comment
+                  </button>
+                  <button className="btn btn-share">
+                    <i className="bi bi-share"></i> Share
+                  </button>
+                </div>
               </div>
             </div>
 
@@ -96,24 +117,32 @@ export const Photo = () => {
               <div className="card-body">
                 <h5 className="card-title">Aesthetic Dramatic Shot</h5>
                 <p className="card-text">
-                  <b>"Where Beauty meets Perspective"</b> <br />
+                  <b>"Where Beauty Meets Perspective"</b> <br />
                   This photo feels like stepping into a peaceful moment of
                   reflection. The rows of wooden pews gently guide your eyes
                   toward the glowing altar, creating a sense of purpose and
-                  direction. The colorful stained glass windows add life and
-                  warmth, telling quiet stories of hope and faith. The tall
-                  arches overhead feel protective, like open arms, inviting you
-                  to look up and pause. The soft golden light at the center
-                  feels comforting, evoking a sense of sanctuary amidst the
-                  vastness.
+                  direction. The light shining from the back gives it an almost
+                  ethereal quality, evoking feelings of tranquility and peace.
+                  It’s a moment frozen in time that encapsulates the serenity
+                  and depth of the scene.
                   <br />
-                  <span style={{ marginTop: "10px", display: "block" }}></span>
                   <b>Technical Details:</b> <br />
                   <i>Lighting:</i> Ambient lighting with enhanced contrast in
-                  post-processing. <br />
-                  <i>Camera Settings:</i> ISO 400, f/2.8, 1/30s shutter speed.{" "}
-                  <br />
+                  post-processing to emphasize the glow. <br />
+                  <i>Camera Settings:</i> ISO 400, f/2.8, 1/30s shutter speed. <br />
                 </p>
+                {/* Buttons */}
+                <div className="d-flex justify-content-around">
+                  <button className="btn btn-like" onClick={() => handleLike("card3")}>
+                    <i className="bi bi-hand-thumbs-up"></i> Like ({likes.card3})
+                  </button>
+                  <button className="btn btn-comment">
+                    <i className="bi bi-chat-dots"></i> Comment
+                  </button>
+                  <button className="btn btn-share">
+                    <i className="bi bi-share"></i> Share
+                  </button>
+                </div>
               </div>
             </div>
           </div>

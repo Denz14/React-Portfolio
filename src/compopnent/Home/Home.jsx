@@ -10,17 +10,17 @@ const Home = () => {
       <div className="home-box ">
         <div className="home-inner-box container">
           <p>
-            <h1>Welcome to My Portfolio</h1>
+            <h1>Welcome to My Portfolio !!!</h1>
             <span style={{ marginTop: "20px", display: "block" }}></span>
 
             <p>
-              Hi there !!! I'm Denzil Dsouza, a passionate and creative
+              Hi there, I'm Denzil Dsouza, a passionate and creative
               Interactive Media Designer.
               <p></p>
-              `In my portfolio, you’ll find highlights of my most recent
+              In my portfolio, you’ll find highlights of my most recent
               projects, showcasing my skills in Design, Photography, UI/UX
               Design etc. Each project reflects my commitment to quality,
-              attention to detail, and dedication to user-centered design.`
+              attention to detail, and dedication to user-centered design.
             </p>
             <p>
               I love creating solutions that are both functional and beautiful,
