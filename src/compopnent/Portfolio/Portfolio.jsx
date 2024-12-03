@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import c from "../image/Photocover.jpg";
 import p from "../image/Videocover.jpg";
 
@@ -8,35 +9,37 @@ const Portfolio = () => {
       <div className="home-box">
         <div className="home-inner-box">
           <h1>My Portfolio</h1>
-          <div className="d-flex " style={{ justifyContent: "space-evenly" }}>
+          <div className="d-flex" style={{ justifyContent: "space-evenly" }}>
             <div className="portfolio-tab">
-              <div class="card  bg-secondary" style={{ width: "30rem" }}>
-                <img src={c} class="d-block  " alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Photography Project</h5>
-                  <p class="card-text">
-                    <b>"Through the Lens: Capturing Life's Essence" </b> <br />
+              <div className="card bg-secondary" style={{ width: "30rem" }}>
+                <img src={c} className="d-block" alt="Photography" />
+                <div className="card-body">
+                  <h5 className="card-title">Photography Project</h5>
+                  <p className="card-text">
+                    <b>"Through the Lens: Capturing Life's Essence" </b>
+                    <br />
                     <br />A striking interplay of light and shadow, emotion and
                     stillness. This photography project reflects the soul of
                     photography: freezing moments that speak louder than words,
-                    each image a chapter in the story of existence."
+                    each image a chapter in the story of existence.
                   </p>
                 </div>
 
-                <div class="card-body  ">
-                  <a href="/portfolio/photos" class="card-link text-dark">
+                <div className="card-body">
+                  {/* Use Link instead of a */}
+                  <Link to="/portfolio/photos" className="card-link text-dark">
                     Read more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
 
-            <div class="card bg-secondary" style={{ width: "30rem" }}>
-              <img src={p} class="d-block  " alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Videography project</h5>
-                <p class="card-text">
-                  <b> "Frames in Motion: Telling Stories Through Film" </b>{" "}
+            <div className="card bg-secondary" style={{ width: "30rem" }}>
+              <img src={p} className="d-block" alt="Videography" />
+              <div className="card-body">
+                <h5 className="card-title">Videography Project</h5>
+                <p className="card-text">
+                  <b>"Frames in Motion: Telling Stories Through Film" </b>
                   <br />
                   <br />A dynamic videography project that embodies the art of
                   videography, where every frame flows seamlessly into the next,
@@ -44,10 +47,11 @@ const Portfolio = () => {
                 </p>
               </div>
 
-              <div class="card-body">
-                <a href="/portfolio/video" class="card-link text-dark">
+              <div className="card-body">
+                {/* Use Link instead of a */}
+                <Link to="/portfolio/video" className="card-link text-dark">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
