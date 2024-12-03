@@ -10,8 +10,8 @@ const Home = () => {
       <div className="home-box ">
         <div className="home-inner-box container">
           <p>
-            <h1>Welcome to My Portfolio !!!</h1>
-            <span style={{ marginTop: "20px", display: "block" }}></span>
+          <h1 className="portfolio-title">Welcome To My Portfolio</h1>
+          <span style={{ marginTop: "20px", display: "block" }}></span>
 
             <p>
               Hi there, I'm Denzil Dsouza, a passionate and creative

@@ -19,7 +19,7 @@ export const Photo = () => {
     <>
       <div className="home-box">
         <div className="home-inner-box">
-          <h1>Photography Project</h1>
+        <h1 className="portfolio-title">Photography Project</h1>
           <span style={{ marginTop: "40px", display: "block" }}></span>
 
           <div

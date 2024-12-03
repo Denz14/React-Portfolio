@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import h from "../image/The team.jpeg";
 import i from "../image/Planning.jpg";
 import j from "../image/Sound check.jpeg";
@@ -8,19 +8,27 @@ import m from "../image/Editing.jpg";
 import n from "../image/Teamwork.jpeg";
 
 export const Port = () => {
+  // State to track likes
+  const [likes, setLikes] = useState({ card3: 0 });
+
+  // Handle the like button click
+  const handleLike = (card) => {
+    setLikes((prevLikes) => ({
+      ...prevLikes,
+      [card]: prevLikes[card] + 1,
+    }));
+  };
+
   return (
     <>
       <div className="home-box">
         <div className="home-inner-box">
-          <h1>My Portfolio</h1>
+        <h1 className="portfolio-title">Videography Project</h1>
           <div className="d-flex" style={{ justifyContent: "center" }}>
             <div className="portfolio-tab">
               <div className="card bg-secondary" style={{ width: "50rem" }}>
                 <div className="card-body">
-                  {/* Project Title */}
-                  <h5 className="card-title" style={{ marginBottom: "20px" }}>
-                    Videography Project
-                  </h5>
+                  
                   <p className="card-text">
                     <b>"Frames in Motion: Telling Stories Through Film"</b>
                   </p>
@@ -36,6 +44,23 @@ export const Port = () => {
                     allowFullScreen
                     style={{ marginBottom: "20px" }}
                   ></iframe>
+
+                  {/* Buttons below video */}
+                  <div className="button-group" style={{ marginBottom: "20px" }}>
+                    <button
+                      className="btn btn-like"
+                      onClick={() => handleLike("card3")}
+                    >
+                      <i className="bi bi-hand-thumbs-up"></i> Like ({likes.card3})
+                    </button>
+                    <button className="btn btn-comment">
+                      <i className="bi bi-chat-dots"></i> Comment
+                    </button>
+                    <button className="btn btn-share">
+                      <i className="bi bi-share"></i> Share
+                    </button>
+                    </div>
+
 
                   {/* Descriptions and Images */}
                   <p className="card-text">
@@ -220,22 +245,17 @@ export const Port = () => {
                     elevate the overall production.
                   </p>
                   <p className="card-text">
-                    One of my key contributions was sound design—syncing the
-                    audio captured during production, enhancing the natural
-                    sounds and integrating a carefully chosen soundtrack that
-                    complemented the visuals.
-                  </p>
-                  <p className="card-text">
-                    Seeing all the elements—footage, sounds and effects—come
-                    together was incredibly rewarding. The collaborative effort
-                    ensured that every detail contributed to telling the story
-                    we envisioned from the start and it was exciting to deliver
-                    a piece that truly captured the essence of the project.
+                    It was during this stage that I truly appreciated the impact
+                    of every decision made in pre-production and production. The
+                    clear vision and meticulous planning paid off, making it
+                    easier to bring the story to life in post-production. We
+                    focused on achieving a polished and cohesive final video
+                    that stayed true to the original vision.
                   </p>
                   <img
                     src={m}
                     className="d-block"
-                    alt="Editing Phase"
+                    alt="Video Editing Process"
                     style={{
                       margin: "20px auto",
                       maxWidth: "100%",
@@ -244,28 +264,25 @@ export const Port = () => {
                     }}
                   />
 
-                  {/* Lessons Section */}
+                  {/* Conclusion Section */}
                   <h6 style={{ marginTop: "20px", marginBottom: "10px" }}>
-                    <b>Lessons from the Experience</b>
+                    <b>Conclusion</b>
                   </h6>
                   <p className="card-text">
-                    Video production is all about teamwork. While I focused on
-                    my role, it was the collaboration with others that made the
-                    project a success. Everyone brought something unique to the
-                    table, and working together taught me how important clear
-                    communication and flexibility are in bringing a vision to
-                    life. 
-                  </p>
-                  <p className="card-text">
-                  This project also showed me the value of listening to
-                    feedback and adapting when challenges arise. It’s always
-                    rewarding to see how teamwork can turn an idea into
-                    something truly special.
+                    This experience taught me so much about the art of
+                    storytelling through video, from the importance of sound and
+                    lighting to the magic of editing. It also underscored the
+                    value of teamwork, as every member played a crucial role in
+                    bringing the project to life. I am so grateful for the
+                    opportunity to work on this project and learn from my
+                    talented teammates. I can’t wait to apply these lessons to
+                    future projects and continue to grow as a videographer and
+                    editor!
                   </p>
                   <img
                     src={n}
                     className="d-block"
-                    alt="Teamwork in Action"
+                    alt="Teamwork"
                     style={{
                       margin: "20px auto",
                       maxWidth: "100%",

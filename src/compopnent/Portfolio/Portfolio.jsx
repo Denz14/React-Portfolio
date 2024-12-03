@@ -8,8 +8,8 @@ const Portfolio = () => {
     <>
       <div className="home-box">
         <div className="home-inner-box">
-          <h1>My Portfolio</h1>
-          <div className="d-flex" style={{ justifyContent: "space-evenly" }}>
+        <h1 className="portfolio-title">My Portfolio</h1>
+        <div className="d-flex" style={{ justifyContent: "space-evenly" }}>
             <div className="portfolio-tab">
               <div className="card bg-secondary" style={{ width: "30rem" }}>
                 <img src={c} className="d-block" alt="Photography" />
