@@ -53,8 +53,7 @@ export const Photo = () => {
                     <b>Technical Details:</b> <br />
                     <i>Lighting:</i> Capti Ring lighting at yellow mode to
                     enhance the halo effect. <br />
-                    <i>Camera Settings:</i> ISO 200, f/4.0, 1/125s shutter
-                    speed. <br />
+                    <i>Camera Settings:</i> Camera: SONY ZV-1, Lens: 24-70mm, Focal length: 11.70mm, ISO 400, f/2.5, Exposure: 1/2500s <br />
                   </p>
                   {/* Buttons */}
                   <div className="d-flex justify-content-around">
@@ -91,7 +90,7 @@ export const Photo = () => {
                   <b>Technical Details:</b> <br />
                   <i>Lighting:</i> Studio two-point lighting with a yellow glow to
                   reduce harsh shadows. <br />
-                  <i>Camera Settings:</i> ISO 100, f/5.6, 1/60s shutter speed. <br />
+                  <i>Camera Settings:</i> Camera: SONY ZV-1, Lens: 24-70mm, Focal length: 9.40mm, ISO 160, f/2.8, Exposure: 1/13s<br />
                 </p>
                 {/* Buttons */}
                 <div className="d-flex justify-content-around">
@@ -129,7 +128,7 @@ export const Photo = () => {
                   <b>Technical Details:</b> <br />
                   <i>Lighting:</i> Ambient lighting with enhanced contrast in
                   post-processing to emphasize the glow. <br />
-                  <i>Camera Settings:</i> ISO 400, f/2.8, 1/30s shutter speed. <br />
+                  <i>Camera Settings:</i> Camera: APPLE iPhone 11, Focal length: 4.25mm, ISO 500, f/1.8, Exposure: 1/35s<br />
                 </p>
                 {/* Buttons */}
                 <div className="d-flex justify-content-around">
