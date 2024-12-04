@@ -1,75 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Noto+Sans:ital,wght@1,300&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@500&family=Source+Code+Pro:wght@300&family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@500&family=Source+Code+Pro:wght@300&family=Varela+Round&display=swap');
-*{margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Noto+Sans:ital,wght@1,300&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@500&family=Source+Code+Pro:wght@300&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@500&family=Source+Code+Pro:wght@300&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ced6e0;
+  filter: brightness(110%);
+}
+.btn {
+  background-color: burlywood;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-top: 20px; /* Adjust as needed */
+}
 
-}
-body{
-    background-color: #ced6e0;
-    filter: brightness(110%);
+.btn:hover {
+  background-color: darkgoldenrod; /* Optional hover effect */
+  color: rgb(255, 255, 255);
 }
 
-.home-box{
-/* border: 2px solid red; */
-width: 100%;
-height: fit-content;
-margin: auto;
-margin-top: 5vh;
-background: #95a5a6;
+.home-box {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 5vh;
+  background: #95a5a6;
 }
-.home-inner-box{
-    border: 2px solid #dfe4ea;
-    width: 90%;
-   
-    margin: auto;
+.home-inner-box {
+  border: 2px solid #dfe4ea;
+  width: 90%;
+
+  margin: auto;
   background-color: #dfe4ea;
   background-color: black;
-    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.1);
 }
-p{
-    font-family: 'Noto Sans';
-    font-weight: 550;
-    color: burlywood;
-
-    
+p {
+  font-family: "Noto Sans";
+  font-weight: 550;
+  color: burlywood;
 }
 
-img{
-    display: flex;
-    justify-items: auto;
-    height: fit-content;
-    /* carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>") */
+img {
+  display: flex;
+  justify-items: auto;
+  height: fit-content;
+  /* carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>") */
 }
-.first-para{
-    margin: 10vh;
-     display: flex;
-    justify-content: center;
-    flex-direction: row;
-     align-items: center;  
+.first-para {
+  margin: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
-.choose h3 h5{
-    font-family: 'Roboto';
-    
+.choose h3 h5 {
+  font-family: "Roboto";
 }
-.choose{
-    margin: 10vh;
-
-
+.choose {
+  margin: 10vh;
 }
-.first-para > typewriter{
-    margin-top: 0;
+.first-para > typewriter {
+  margin-top: 0;
 }
 @media only screen and (max-width: 900px) {
-    .carousel{
-   
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    
-    }
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  h1{
-    color: aliceblue;
-  }
+}
+h1 {
+  color: aliceblue;
+}

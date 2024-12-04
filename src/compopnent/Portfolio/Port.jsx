@@ -45,24 +45,25 @@ export const Port = () => {
                   ></iframe>
 
                   {/* Buttons below video */}
-                  <div
-                    className="button-group"
-                    style={{ marginBottom: "20px" }}
-                  >
-                    <button
-                      className="btn btn-like"
-                      onClick={() => handleLike("card3")}
-                    >
-                      <i className="bi bi-hand-thumbs-up"></i> Like (
-                      {likes.card3})
-                    </button>
-                    <button className="btn btn-comment">
-                      <i className="bi bi-chat-dots"></i> Comment
-                    </button>
-                    <button className="btn btn-share">
-                      <i className="bi bi-share"></i> Share
-                    </button>
-                  </div>
+                  <div className="button-group" style={{ marginBottom: "20px" }}>
+  <button
+    className="btn btn-like"
+    onClick={() => handleLike("card3")}
+    style={{ marginRight: "10px" }} // Add spacing between buttons
+  >
+    <i className="bi bi-hand-thumbs-up"></i> Like ({likes.card3})
+  </button>
+  <button
+    className="btn btn-comment"
+    style={{ marginRight: "10px" }} // Add spacing between buttons
+  >
+    <i className="bi bi-chat-dots"></i> Comment
+  </button>
+  <button className="btn btn-share">
+    <i className="bi bi-share"></i> Share
+  </button>
+</div>
+
 
                   {/* Descriptions and Images */}
                   <p className="card-text">

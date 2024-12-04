@@ -20,7 +20,7 @@ const Home = () => {
               In my portfolio, you’ll find highlights of my most recent
               projects, showcasing my skills in Design, Photography, UI/UX
               Design etc. Each project reflects my commitment to quality,
-              attention to detail, and dedication to user-centered design.
+              attention to detail and dedication to user-centered design.
             </p>
             <p>
               I love creating solutions that are both functional and beautiful,
@@ -75,7 +75,7 @@ const Home = () => {
                     src={c}
                     class="d-block  "
                     alt="..."
-                    style={{ width: "26rem", height: "30rem", margin: "auto" }}
+                    style={{ width: "30rem", height: "40rem", margin: "auto" }}
                   />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>When Halos come down</h5>
@@ -87,7 +87,7 @@ const Home = () => {
                     src={B}
                     class="d-block "
                     alt="..."
-                    style={{ width: "26rem", height: "30rem", margin: "auto" }}
+                    style={{ width: "30rem", height: "40rem", margin: "auto" }}
                   />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Portfolio Picture</h5>
@@ -99,7 +99,7 @@ const Home = () => {
                     src={D}
                     class="d-block"
                     alt="..."
-                    style={{ width: "26rem", height: "30rem", margin: "auto" }}
+                    style={{ width: "30rem", height: "40rem", margin: "auto" }}
                   />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Asthetic Shot</h5>

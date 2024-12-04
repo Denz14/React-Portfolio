@@ -11,15 +11,15 @@ const Skills = () => {
             <div className="skill-item">
               <h2>Typography</h2>
               <p>
-                Understanding fonts, typefaces, and how to pair them effectively.
-                Knowledge of font sizes, line spacing, and kerning for readability
+                Understanding fonts, typefaces and how to pair them effectively.
+                Knowledge of font sizes, line spacing and kerning for readability
                 and aesthetic appeal.
               </p>
             </div>
             <div className="skill-item">
               <h2>Color Theory</h2>
               <p>
-                Understanding the color wheel, color harmony, and the psychological
+                Understanding the color wheel, color harmony and the psychological
                 impact of colors. Ability to create color palettes that convey the
                 desired mood and message.
               </p>
@@ -36,7 +36,7 @@ const Skills = () => {
               <h2>Software Proficiency</h2>
               <p>
                 Proficiency in graphic design software such as Adobe Creative Suite
-                (Photoshop, Illustrator, InDesign), CorelDRAW, and Figma for UI/UX
+                (Photoshop, Illustrator, InDesign), CorelDRAW and Figma for UI/UX
                 design.
               </p>
             </div>
@@ -52,7 +52,7 @@ const Skills = () => {
               <h2>Print Design</h2>
               <p>
                 Understanding print production processes and specifications. Skills
-                in designing materials like brochures, flyers, posters, and
+                in designing materials like brochures, flyers, posters and
                 business cards.
               </p>
             </div>
@@ -60,7 +60,7 @@ const Skills = () => {
               <h2>Attention to Detail</h2>
               <p>
                 A keen eye for detail to ensure designs are polished and error-free.
-                Skills in checking typography, alignment, and overall design
+                Skills in checking typography, alignment and overall design
                 consistency.
               </p>
             </div>
