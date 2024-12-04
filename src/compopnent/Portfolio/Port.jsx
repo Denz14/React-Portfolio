@@ -23,12 +23,11 @@ export const Port = () => {
     <>
       <div className="home-box">
         <div className="home-inner-box">
-        <h1 className="portfolio-title">Videography Project</h1>
+          <h1 className="portfolio-title">Videography Project</h1>
           <div className="d-flex" style={{ justifyContent: "center" }}>
             <div className="portfolio-tab">
               <div className="card bg-secondary" style={{ width: "50rem" }}>
                 <div className="card-body">
-                  
                   <p className="card-text">
                     <b>"Frames in Motion: Telling Stories Through Film"</b>
                   </p>
@@ -46,12 +45,16 @@ export const Port = () => {
                   ></iframe>
 
                   {/* Buttons below video */}
-                  <div className="button-group" style={{ marginBottom: "20px" }}>
+                  <div
+                    className="button-group"
+                    style={{ marginBottom: "20px" }}
+                  >
                     <button
                       className="btn btn-like"
                       onClick={() => handleLike("card3")}
                     >
-                      <i className="bi bi-hand-thumbs-up"></i> Like ({likes.card3})
+                      <i className="bi bi-hand-thumbs-up"></i> Like (
+                      {likes.card3})
                     </button>
                     <button className="btn btn-comment">
                       <i className="bi bi-chat-dots"></i> Comment
@@ -59,8 +62,7 @@ export const Port = () => {
                     <button className="btn btn-share">
                       <i className="bi bi-share"></i> Share
                     </button>
-                    </div>
-
+                  </div>
 
                   {/* Descriptions and Images */}
                   <p className="card-text">
@@ -266,18 +268,21 @@ export const Port = () => {
 
                   {/* Conclusion Section */}
                   <h6 style={{ marginTop: "20px", marginBottom: "10px" }}>
-                    <b>Conclusion</b>
+                    <b>Lessons to take away from the Experience</b>
                   </h6>
                   <p className="card-text">
-                    This experience taught me so much about the art of
-                    storytelling through video, from the importance of sound and
-                    lighting to the magic of editing. It also underscored the
-                    value of teamwork, as every member played a crucial role in
-                    bringing the project to life. I am so grateful for the
-                    opportunity to work on this project and learn from my
-                    talented teammates. I can’t wait to apply these lessons to
-                    future projects and continue to grow as a videographer and
-                    editor!
+                    Video production is all about teamwork. While I focused on
+                    my role, it was the collaboration with others that made the
+                    project a success. Everyone brought something unique to the
+                    table and working together taught me how important clear
+                    communication and flexibility are in bringing a vision to
+                    life.
+                  </p>
+                  <p className="card-text">
+                  This project also showed me the value of listening to
+                    feedback and adapting when challenges arise. It’s always
+                    rewarding to see how teamwork can turn an idea into
+                    something truly special.
                   </p>
                   <img
                     src={n}
